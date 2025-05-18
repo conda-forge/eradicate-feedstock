@@ -1,5 +1,5 @@
 {% set name = "eradicate" %}
-{% set version = "2.3.0" %}
+{% set version = "3.0.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/eradicate-{{ version }}.tar.gz
-  sha256: 06df115be3b87d0fc1c483db22a2ebb12bcf40585722810d809cc770f5031c37
+  sha256: b237d9f2309b181035d2a87b24385b4f11ab7bb858b75bff496964b5f453aa77
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
