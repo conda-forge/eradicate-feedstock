@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: eradicate
-  version: 3.0.0
+  version: "3.0.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/eradicate-${{ version }}.tar.gz
-  sha256: b237d9f2309b181035d2a87b24385b4f11ab7bb858b75bff496964b5f453aa77
+  sha256: c9cb7ef8e7e83c3fbd9806010e21089892bb649531c68875a555c7b5c978faa6
 
 build:
   number: 0
